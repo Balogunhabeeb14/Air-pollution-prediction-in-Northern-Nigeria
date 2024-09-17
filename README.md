@@ -33,8 +33,6 @@ The dataset consists of:
    - Utilizes time series decomposition for forecasting.
    - Handles seasonality and trend components effectively.
 
-### Cross-Validation
-- **Time Series Split**: Time series cross-validation is employed to assess the performance of the models, ensuring that predictions are made on unseen future data.
 
 ## Results
 
