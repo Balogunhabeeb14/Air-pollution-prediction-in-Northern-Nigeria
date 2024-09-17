@@ -24,7 +24,7 @@ The dataset consists of:
 
 ### Forecasting Models
 
-1. **LSTM Model**: 
+1. **LSTM Model**:
    - Uses a sequence of past observations to predict future pollutant levels.
    - The LSTM model architecture includes multiple LSTM layers with dropout for regularization.
    - Model training is performed with early stopping to prevent overfitting.
@@ -32,7 +32,6 @@ The dataset consists of:
 2. **Prophet Model**:
    - Utilizes time series decomposition for forecasting.
    - Handles seasonality and trend components effectively.
-
 
 ## Results
 
@@ -57,10 +56,33 @@ Visualizations include:
 - `prophet/`: Contains scripts for training and evaluating the Prophet model, performance metrics CSV, and related charts.
 - `data/`: Raw data files in `.xlsx` format.
 
-## How to Run
+## How to Set Up and Run
 
-1. **Set Up**: Ensure you have the required Python packages installed (`pandas`, `numpy`, `scikit-learn`, `tensorflow`, `fbprophet`, `matplotlib`).
-
-2. **Run LSTM Model**:
+1. **Clone the Repository**:
    ```bash
-   python lstm/lstm_model.py
+   git clone https://github.com/Balogunhabeeb14/Air-pollution-prediction-in-Northern-Nigeria.git
+   cd Air-pollution-prediction-in-Northern-Nigeria
+
+2. **Create a virtual environment**:
+   ```bash
+   python -m venv venv_name # change the venv_name to whatever you want to call your virtual environment
+
+3. **Activate virtual environment**:
+   ```bash
+   venv\Scripts\activate
+
+4. **Install all requirements**:
+   ```bash
+   pip install -r requirements.txt
+
+4. **Locate and run the LSTM or other scripts, e.g.,**:
+   ```bash
+   python3 lstm/lstm_model.py
+
+
+### Key Points:
+
+This README file provides a comprehensive guide to setting up the environment, running the models, and understanding the structure and results of the analysis.
+
+
+
