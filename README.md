@@ -80,9 +80,3 @@ Visualizations include:
    python3 lstm/lstm_model.py
 
 
-### Key Points:
-
-This README file provides a comprehensive guide to setting up the environment, running the models, and understanding the structure and results of the analysis.
-
-
-
